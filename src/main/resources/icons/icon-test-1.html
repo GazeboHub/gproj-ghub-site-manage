@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="generator" content="UX Write 1.1.6 (build eb2a3ab); iOS 6.1.3">
+  <meta charset="utf-8">
+  <style>
+@page {
+    size: a4 portrait;
+  }
+
+  body {
+    counter-reset: h1 h2 h3 h4 h5 h6 figure table;
+    margin: 10%;
+    text-align: justify;
+  }
+
+  figcaption {
+    counter-increment: figure;
+  }
+
+  figcaption.Unnumbered {
+    counter-increment: figure 0;
+  }
+
+  figcaption.Unnumbered::before, h1.Unnumbered::before, h2.Unnumbered::before, h3.Unnumbered::before, h4.Unnumbered::before, h5.Unnumbered::before, h6.Unnumbered::before {
+    content: "";
+  }
+
+  figcaption::before {
+    content: "Figure " counter(figure) ": ";
+  }
+
+  figure {
+    margin-bottom: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12pt;
+    text-align: center;
+  }
+
+  h1 {
+    counter-increment: h1;
+    counter-reset: h2 h3 h4 h5 h6;
+  }
+
+  h1.Unnumbered {
+    counter-increment: h1 0;
+    counter-reset: null;
+  }
+
+  h1::before {
+    content: counter(h1) " ";
+  }
+
+  h2 {
+    counter-increment: h2;
+    counter-reset: h3 h4 h5 h6;
+  }
+
+  h2.Unnumbered {
+    counter-increment: h2 0;
+    counter-reset: null;
+  }
+
+  h2::before {
+    content: counter(h1) "." counter(h2) " ";
+  }
+
+  h3 {
+    counter-increment: h3;
+    counter-reset: h4 h5 h6;
+  }
+
+  h3.Unnumbered {
+    counter-increment: h3 0;
+    counter-reset: null;
+  }
+
+  h3::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) " ";
+  }
+
+  h4 {
+    counter-increment: h4;
+    counter-reset: h5 h6;
+  }
+
+  h4.Unnumbered {
+    counter-increment: h4 0;
+    counter-reset: null;
+  }
+
+  h4::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " ";
+  }
+
+  h5 {
+    counter-increment: h5;
+    counter-reset: h6;
+  }
+
+  h5.Unnumbered {
+    counter-increment: h5 0;
+    counter-reset: null;
+  }
+
+  h5::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+  }
+
+  h6 {
+    counter-increment: h6;
+  }
+
+  h6.Unnumbered {
+    counter-increment: h6 0;
+    counter-reset: null;
+  }
+
+  h6::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " ";
+  }
+
+  p {
+    font-family: Baskerville;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+  p.Title {
+  }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+  <span></span>
+
+  <figure id="item1">
+    <img src="icon-test-1_image001.jpg">
+  </figure>
+
+  <p class="Title">Gazebo Project</p>
+
+  <p class="Title"><br></p>
+
+  <p class="Title"><br></p>
+</body>
+</html>
