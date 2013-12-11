@@ -1,0 +1,3 @@
+[submodule "publish/gazebohub.github.io"]
+	path = publish/gazebohub.github.io
+	url = git@github.com:GazeboHub/gazebohub.github.io.git
