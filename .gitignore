@@ -1,0 +1,7 @@
+# Text
+*~
+*#
+# Eclipse IDE
+.settings
+# Maven
+target
